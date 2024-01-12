@@ -1,0 +1,70 @@
+
+
+
+.nav-link:focus, .nav-link:hover{
+    color: crimson !important;
+    justify-content: end !important;
+}
+
+.LearnPara{
+font-family: cursive;
+background-color: black;
+border-radius: 50px;
+padding: 50px;
+color: azure;
+}
+.flex-grow-1{
+    font-family: serif;
+}
+
+button1:hover{
+    background-color: crimson !important;
+}
+
+.card__heading {
+    font-size: 1.1rem !important;
+    font-family: "Michroma";
+    text-transform: uppercase;
+    background-color: #fff;
+    letter-spacing: 3px;
+    padding: 0.5rem;
+    border: 2px solid #414042;
+    color: black;
+    text-align: center;
+    /* margin-top: 20px; */
+}
+
+
+.card__subheading{
+    color: black;
+    text-align: center;
+}
+
+.custom-size{
+    width: 350px;
+    list-style-type: none;
+}
+
+@media (max-width:993px) {
+    .custom-size{
+        margin-left: 140px;
+    }
+}
+
+@media (max-width:768px) {
+    .custom-size{
+        margin-left: 50px;
+    }
+}
+
+@media (max-width:460px) {
+    .custom-size{
+        width: 265px;
+    }
+} 
+
+@media (max-width:380px) {
+    .custom-size{
+        margin-left: 0px;
+    }
+} 
